@@ -1,3 +1,16 @@
 *.p filter=lfs diff=lfs merge=lfs -text
 book_ratings/ filter=lfs diff=lfs merge=lfs -text
 flaskAPI/models/model_file.p filter=lfs diff=lfs merge=lfs -text
+[200~/Users/cerenkasap/Desktop/Projects/model_file.p
+git[[:space:]]lfs[[:space:]]track[[:space:]]flaskAPI/models/model_file.p
+git[[:space:]]add[[:space:]].gitattributes
+git[[:space:]]add[[:space:]]flaskAPI/models/model_file.p
+git[[:space:]]commit[[:space:]]-m[[:space:]]added filter=lfs diff=lfs merge=lfs -text
+flask_api filter=lfs diff=lfs merge=lfs -text
+endpoint
+git[[:space:]]push
+cd[[:space:]]flask_API
+git[[:space:]]pull[[:space:]]flask_API
+cd[[:space:]]Desktop/
+ filter=lfs diff=lfs merge=lfs -text
+/Users/cerenkasap/Desktop/git_pro/book_ratings/flaskAPI/models/model_file.p filter=lfs diff=lfs merge=lfs -text
