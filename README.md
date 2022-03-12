@@ -81,8 +81,10 @@ Data were split into **train (80%)** and **test (20%)** sets.
 I used two models *(Linear Regression and Random Forest Regression)* to predict book ratings and evaluated them by using *MAE (Mean Absolute Error)*.
 
 ![alt text](https://github.com/cerenkasap/book_ratings/blob/master/images/Linear_Reg_Model.png "Linear Regression Model")
-![alt text](https://github.com/cerenkasap/book_ratings/blob/master/images/Random_Forest_Model.png "Random Forest Regression Model")
+![alt text](https://github.com/cerenkasap/book_ratings/blob/master/images/Linear_Reg.png "Linear Regression Model")
 
+![alt text](https://github.com/cerenkasap/book_ratings/blob/master/images/Random_Forest_Model.png "Random Forest Regression Model")
+![alt text](https://github.com/cerenkasap/book_ratings/blob/master/images/Random_Forest.png "Random Forest Regression Model")
 
 ## Model Performance Evalution
 Random Forest Regression model performed better than Linear Regression model in this project.
