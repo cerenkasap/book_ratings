@@ -1,12 +1,12 @@
 # Predict Book Ratings 📚: Project Overview
 
-Created a tool that can estimate the book ratings **(Mean Absolute Error - 0.21)** to help bibliophiles to predict the average book ratings when it comes to pick next book to read.
+Created a tool that can estimate the book ratings **(Mean Absolute Error - 0.21)** to help bibliophiles to predict the average book ratings when it comes to picking the next book to read.
 
 Pulled over **11123 books** from Kaggle using pandas and opendatasets libraries in python.
 
 Applied **Linear Regression** and **Random Forest Regression** and optimized using **RandomGridSearchCV** to find the best model.
 
-Built a client facing API using **flask.**
+Built a client-facing API using **flask.**
 
 ### Code Used
 
@@ -53,9 +53,9 @@ Used Kaggle to pull the datasets 11123 books with 12 columns:
 After pulling the data, I cleaned up the dataset to be ready to use for the model. The changes were made follows:
 
 * Pulled years from publication_date column and created publication_year column.
-* Calculated age of each book by substracting the publication year by 2022 (current year we are in).
-* Dropped isbn column since we have isbn13 column.
-* Changed language codes with their full name and merged English based ones (e.g. en-ca, en-us etc.) to English.
+* Calculated age of each book by substracting the publication year by 2022 (the current year we are in).
+* Dropped ISBN column since we have the isbn13 column.
+* Changed language codes with their full name and merged English-based ones (e.g. en-ca, en-us, etc.) to English.
 
 
 ## Exploratory Data Analysis
@@ -86,8 +86,8 @@ I used two models *(Linear Regression and Random Forest Regression)* to predict 
 ![alt text](https://github.com/cerenkasap/book_ratings/blob/master/images/Random_Forest_Model.png "Random Forest Regression Model")
 ![alt text](https://github.com/cerenkasap/book_ratings/blob/master/images/Random_Forest.png "Random Forest Regression Model")
 
-## Model Performance Evalution
-Random Forest Regression model performed better than Linear Regression model in this project.
+## Model Performance Evaluation
+The Random Forest Regression model performed better than the Linear Regression model in this project.
 
 |Linear Regression |Train  |Test |                      
 | -------------    |:-----:| ---:|                      
@@ -108,7 +108,7 @@ Random Forest Regression model performed better than Linear Regression model in 
 The flask API endpoint was built and hosted on a local server (web), it takes in a request and predicts a book rating. 
 
 ### Notes
-My model was over than 100 MB which GitHub doesn't support any file over than 100MB. 
+My model was over 100 MB which GitHub doesn't support any file over 100MB. 
 I tried [this method](https://stackoverflow.com/a/70765999) and it worked for me, attaching for future reference.
 
 Thanks :) 
